@@ -2,6 +2,6 @@
 This is a Note Block made with React, Node and Mysql.
 
 
-##Demonstration
+## Demo
 
 ![Gif do Projeto](./project_GIF/Note_Block.gif)
