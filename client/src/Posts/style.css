@@ -1,0 +1,29 @@
+.main__postagens {
+    background-color: rgb(44, 4, 82);
+    width: 400px;
+    height: 600px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__postagens--notas {
+    overflow-y: scroll;
+}
+
+.main__postagens--notas::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgb(44, 4, 82);
+    border-radius: 20px;
+}
+
+.main__postagens--notas::-webkit-scrollbar-thumb {
+    background-color: white;
+}
+
+.main__postagens h1{
+    margin: 10px;
+}
+

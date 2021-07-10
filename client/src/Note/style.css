@@ -1,0 +1,54 @@
+.nota {
+    background-color: rgb(241, 241, 241);
+    color: rgb(44, 4, 82);
+    margin: 2px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.nota h2 {
+    font-size: 18pt;
+}
+
+.nota p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 13pt;
+}
+
+.nota__conteudo {
+    width: 330px;
+    word-wrap: break-word;
+}
+
+.nota__button {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(241, 241, 241);
+    transition: .3s;
+    position: absolute;
+    right: 5px;
+}
+
+.nota:hover .nota__button{
+    width: 0;
+}
+
+.nota button {
+    width: 30px;
+    height: 30px;
+    font-size: 20pt;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.nota button:hover {
+    width: 28px;
+    height: 28px;
+}
